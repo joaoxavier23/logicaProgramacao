@@ -30,7 +30,7 @@ def getInputValido(mensagem):
         return getInputValido(mensagem)
 
 
-def verificaMovimento(board, i , j):
+def verificaMovimento(board,i,j):
     if(board[i][j] == branco):
         return True
     else:
